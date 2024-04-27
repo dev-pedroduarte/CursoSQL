@@ -45,6 +45,7 @@ FROM tabela
 
 
 -- AULA 06 | TOP = Limitar a quantidade de dados que é retornada de um select.
+
 SELECT TOP 10 *
 FROM tabela
 
@@ -73,6 +74,7 @@ color IN ('BLUE', 'RED')
 
 -- Aula 10 | LIKE = É usado para buscar padrões em strings, permitindo consultas flexíveis e específicas em um banco de dados.
 -- Exp: Encontrar uma pessoa no banco de dados que você sabe que o nome dela era Mat...
+
 SELECT *
 FROM tabela
 WHERE coluna1 LIKE 'Mat%' -- % No final significa que não importa o que vem atrás que ele vai buscar só o que tem alguma coisa relacionada com o da frente.
@@ -84,6 +86,8 @@ WHERE coluna1 LIKE '%us' -- % Na frente significa que vai buscar tudo o que vem 
 SELECT *
 FROM tabela
 WHERE coluna1 LIKE '%the%' -- % (Sring) % significa que vai buscar tudo que está no meio.
+
+aa 
 
 
 
